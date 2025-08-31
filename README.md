@@ -1,12 +1,67 @@
-# React + Vite
+React E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive e-commerce front-end built with React. This project showcases a complete, single-page application (SPA) experience, featuring a dynamic product catalog and a fully functional shopping cart managed with a centralized Redux store.
 
-Currently, two official plugins are available:
+(Here, you can add a screenshot of your finished application. This is highly recommended for visual projects!)
+Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Dynamic Product Catalog: Fetches and displays a grid of products from a live REST API, complete with loading and error states.
 
-## Expanding the ESLint configuration
+    Global State Management: Utilizes Redux Toolkit as a single source of truth for the entire application, managing both the product catalog and the shopping cart state.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Functional Shopping Cart:
+
+        Add items to the cart from the product list.
+
+        View all items in a dedicated cart page.
+
+        Update the quantity of individual items in the cart.
+
+        Remove items from the cart.
+
+    Real-Time UI Updates: The cart item count in the navigation bar updates instantly as items are added or removed, providing immediate user feedback.
+
+    Client-Side Routing: Built as a seamless SPA using React Router, with dynamic routes for viewing individual task details.
+
+Technologies & Libraries Used
+
+    React: For building a component-based, declarative user interface.
+
+    Redux Toolkit: For efficient, predictable, and scalable global state management.
+
+    React Router: For handling all client-side navigation and dynamic routing.
+
+    Axios: For making asynchronous GET and POST requests to the API.
+
+    Tailwind CSS: For utility-first styling and creating a modern, responsive design.
+
+    Vite: For a fast and modern development environment and build process.
+
+Getting Started
+
+To get a local copy up and running, follow these simple steps.
+Prerequisites
+
+    Node.js and npm installed (preferably via NVM).
+
+Installation
+
+    Clone the repository to your local machine:
+
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+
+    Navigate into the project directory:
+
+    cd E-com_frontend
+
+    Install the necessary NPM packages:
+
+    npm install
+
+Usage
+
+To run the application in development mode, execute the following command:
+
+npm run dev
+
+This will start the development server, and you can view the application by navigating to http://localhost:5173 (or the address shown in your terminal).
